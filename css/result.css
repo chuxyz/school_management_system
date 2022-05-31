@@ -1,0 +1,204 @@
+/* CSS Document */
+@font-face{
+	font-family:'Old English';
+	src:url('../fonts/xenippa1.ttf') format('truetype');
+}
+@font-face{
+	font-family:'Handwriting';
+	src:url('../fonts/Amperzand.ttf') format('truetype');
+}
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:4mm;
+	background-color:#FFF;
+
+}
+a{ text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+h1{
+	font-style:normal;
+	font-stretch:extra-expanded;
+	text-align:left;
+	font-size:46px;
+	line-height:60px;
+	margin:5px;
+	margin-left:100px;
+	z-index:10;
+	font-family:'Old English';
+	text-transform:capitalize;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+img{
+	border:none;
+}
+ul{
+	list-style:none;
+}
+.no-border{
+	border:none !important;
+}
+.small-box{
+	display:inline-block;
+	height:10px;
+	width:10px;
+}
+.red{
+	background-color:#F00;
+}
+.fail{
+	color:#F00;
+}
+.blue{
+	background-color:#039;
+}
+.pass{
+	color:#039;
+}
+.rotate-vert{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+	-o-transform: rotate(-90deg); /* Opera */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-ms-transform:rotate(-90deg); /* IE8, IE9 */
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	top:30px;
+	left:3px;
+	color:#000;
+	font-size:14px;
+	width:20px;
+}
+
+.result-cover{
+	border:0.5mm solid #000;
+	margin:0px auto;
+	padding:10px;
+	/*width:700px;*/
+	/*height:920px;*/
+	height:230mm;/*210*/
+	width:347mm;/*297*/
+	position:relative;
+	background-color:#FFF;
+}
+caption, .caption{
+	text-transform:uppercase;
+	text-align:left;
+}
+.center{
+	text-align:center;
+}
+.row1{
+}
+table{
+	border-collapse:collapse;
+}
+table tr, table td{
+	border:0.5mm solid #444;
+	padding:0 1px;
+	padding-right:10px;
+}
+.row1 table tr, .row1 table td{
+	border:0.5mm solid #444;
+	padding:0 1px;
+	padding-right:10px;
+}
+.row2{
+}
+.row2 table{
+}
+.row2 table tr, .row2 table td{
+	border:0.5mm solid #444;
+	padding:0px 1px;
+	padding-right:10px;
+}
+.psycho{
+	margin-left:10px;
+}
+.psycho table{
+	width:350px !important;
+}
+.row3{
+}
+.row4{
+	margin-top:20px;
+	position:absolute;
+	bottom:10px;
+}
+span.label{
+	display:inline-block;
+	margin-right:5px;
+	font-size:13px;
+	padding:5px 0px;
+}
+span.dash{
+	display:inline-block;
+	width:100mm;
+	border-bottom:0.5mm solid #000;
+	text-align:center;
+	position:relative;
+	bottom:4px;
+	padding:3px 0px;
+	font-family:'Handwriting';
+	font-size:20px;
+}
+.float-l{
+	float:left;
+}
+.avg{
+	text-align:center;
+	font-size:12mm;
+}
+.student-info{
+	height:180px;
+	width:350px;
+	position:absolute;
+	right:10mm;
+	top:5mm;
+	z-index:5;
+}
+.student-info img{
+	width:40mm;
+	height:40mm;
+	border:none;
+	display:block;
+	margin:auto;
+}
+.student-info span{
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+	text-align:center;
+	font-size:18px;
+}
